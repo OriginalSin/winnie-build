@@ -1,0 +1,17 @@
+.layersTreeWidgetNode {}
+
+.layersTreeWidgetNode-content { padding: 0; }
+.layersTreeWidgetNode-contentView { margin: 0; }
+
+.layersTreeWidgetNode-content.layersTreeWidgetNode-content-last { margin-bottom: 0px; }
+.layersTreeWidgetNode-children { padding-left: 10px; }
+.layersTreeWidgetNode-children_hidden { display: none; }
+
+.layersTreeWidget-contentView-activeArea { cursor: pointer; }
+.layersTreeWidget-contentView-icon { color: hsl(0, 0%, 35%); }
+.layersTreeWidget-contentView-icon_hidden { opacity: 0; }
+.layersTreeWidget-contentView-titleCell { width: 100%; }
+.layersTreeWidget-contentView-checkIconCell { padding-right: 2px; }
+
+.defaultContentView .icon-info { font-size: 10px; }
+.defaultContentView-iconContainer, .defaultContentView-title { cursor: pointer; }

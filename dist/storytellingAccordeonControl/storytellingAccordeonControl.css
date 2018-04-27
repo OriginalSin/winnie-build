@@ -1,0 +1,5 @@
+.storytellingAccordeonControl { background: white; width: 340px; }
+.storytellingAccordeonControl-node { border-bottom: 1px solid hsl(0, 0%, 85%); }
+.storytellingAccordeonControl-node:last-child { border-bottom: none; }
+.storytellingAccordeonControl-nodeTitle { padding: 5px 10px; font-size: 15px; cursor: pointer; user-select: none; }
+.storytellingAccordeonControl-nodeContent { padding: 5px 20px; }

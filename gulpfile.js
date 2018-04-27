@@ -16,10 +16,10 @@ var coreComponents = [{
 }, {
     bowerComponent: 'backbone#1.1.2',
     distFiles: ['backbone.js']
-}, {
-    id: 'Leaflet-active-area',
-    bowerComponent: 'Mappy/Leaflet-active-area',
-    distFiles: ['./src/leaflet.activearea.js']
+// }, {
+    // id: 'Leaflet-active-area',
+    // bowerComponent: 'Mappy/Leaflet-active-area',
+    // distFiles: ['./src/leaflet.activearea.js']
 }, {
     id: 'Utils',
     srcDir: './external/GMXCommonComponents/Utils',
@@ -126,12 +126,20 @@ var coreComponents = [{
     srcDir: './external/GMXCommonComponents/ComponentsManager',
     distDir: './build',
     build: true
-}, {
+}
+,
+// {
+    // id: 'winnie-core',
+    // srcDir: './external/winnie-core/dist',
+    // build: false
+// }
+{
     id: 'winnie-core',
     srcDir: './external/winnie-core',
     distDir: './dist',
     build: true
-}]
+}
+]
 
 require('./external/GMXBuilder')(gulp, {
     tempDir: './temp',

@@ -1,0 +1,4 @@
+.compositeScrollView { height: 100%; }
+.compositeScrollView-scrollingWidgetContainer { overflow: scroll; }
+.compositeScrollView_customScrollbar .compositeScrollView-scrollingWidgetContainer { overflow: hidden; }
+.compositeScrollView-staticWidgetContainer { padding-bottom: 5px; }
